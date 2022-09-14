@@ -1,7 +1,10 @@
-friend_name = "Mary"
+best_name = 'Mary'
+name = 'Joe'
 
-if friend_name == "Mary"
+if best_name
   puts "Hello best friend."
+elsif name == "Joe"
+  puts "Hello good friend"
 else
   puts "Hello friend."
 end
